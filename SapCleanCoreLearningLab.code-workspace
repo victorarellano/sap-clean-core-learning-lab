@@ -1,0 +1,50 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "window.title": "🧩 SAP Clean Core Learning Lab",
+        "workbench.colorCustomizations": {
+            "titleBar.activeBackground": "#56308A",
+            "titleBar.activeForeground": "#FFFFFF",
+            "titleBar.inactiveBackground": "#39245A",
+            "titleBar.inactiveForeground": "#D9CDEB",
+            "statusBar.background": "#167D83",
+            "statusBar.foreground": "#FFFFFF",
+            "statusBar.noFolderBackground": "#167D83",
+            "activityBar.activeBorder": "#BB8AFF",
+            "activityBarBadge.background": "#8D59D6",
+            "activityBarBadge.foreground": "#FFFFFF"
+        },
+        "files.encoding": "utf8",
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+        "editor.wordWrap": "on",
+        "editor.rulers": [
+            100
+        ],
+        "editor.renderWhitespace": "boundary",
+        "markdown.preview.breaks": true,
+        "markdown.validate.enabled": true,
+        "markdown.validate.fileLinks.enabled": "warning",
+        "markdown.validate.fragmentLinks.enabled": "warning",
+        "files.exclude": {
+            "**/.DS_Store": true,
+            "**/Thumbs.db": true
+        },
+        "search.exclude": {
+            "**/.git": true
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "yzhang.markdown-all-in-one",
+            "DavidAnson.vscode-markdownlint",
+            "bierner.markdown-preview-github-styles",
+            "eamodio.gitlens",
+            "humao.rest-client"
+        ]
+    }
+}
